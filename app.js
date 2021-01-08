@@ -7,7 +7,7 @@ const app = express();
 
 // ---------------------------------------------------Database codes stasts from here------------------------------------------------------
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {
+mongoose.connect("mongodb+srv://admin-shawon:s182264n@cluster0.bv8iz.mongodb.net/TodoDB-V2?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
